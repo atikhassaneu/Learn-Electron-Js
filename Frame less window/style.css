@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.win-cls{
+	background-color: #FF605C !important;
+}
+
+.win-min{
+	background-color: #FFBD44 !important;
+}
+
+.win-max{
+	background-color: #00CA4E !important;
+}
+
+.bullet{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: #d7e1fb;
+	border-radius: 50%;
+
+}
+
+
+
+#main-frame{
+	width: 100%;
+	/*background: #000;*/
+}
+
+#frame{
+	background-color: #0b1025;
+	width: 100%;
+	-webkit-app-region:drag;
+}
+
+#frame .button{
+	list-style: none;
+	height: 20px;
+	padding: 10px 15px;
+}
+
+#frame .button li{
+	display: inline-block;
+	padding: 0px 2px;
+	-webkit-app-region:no-drag;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
